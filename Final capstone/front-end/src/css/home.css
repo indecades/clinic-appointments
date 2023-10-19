@@ -1,0 +1,29 @@
+/*changing font to cursive and removing the border*/
+/*changing tge background color and adjusting spacing by using background color*/
+.view-appointment,
+.admin-button {
+	font-family: cursive;
+	border: none;
+	background-color: rgba(128, 128, 128, 0.7);
+	margin-top: 20px;
+}
+
+/*adjusting the hover action by changing the background color and adding a border and border style*/
+/*adjusting the spacing by adding padding*/
+.view-appointment:hover,
+.admin-button:hover {
+	background-color: gray;
+	padding: 1px;
+	border: 1px;
+	border-style: groove;
+}
+
+/*adjusting the spacing by using margin*/
+.view-appointment {
+	margin-right: 10px;
+}
+
+/*adjusting the spacing by using margin*/
+.admin-button {
+	margin-left: 10px;
+}

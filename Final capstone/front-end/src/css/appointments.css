@@ -1,0 +1,24 @@
+/*changing the font to cursive*/
+th {
+	font-family: cursive;
+}
+
+/*changing the table data to monospace*/
+td {
+	font-family: monospace;
+}
+
+/*changing the background color of the button*/
+.login-as-admin-button {
+	background-color: rgba(128, 128, 128, 0.732);
+}
+
+/*changing the background color of the button when hovering over the button*/
+.login-as-admin-button:hover {
+	background-color: gray;
+}
+
+/*changing the background color of the button when the button is actively used*/
+.login-as-admin-button:active {
+	background-color: rgba(127, 255, 212, 0.485);
+}

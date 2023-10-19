@@ -1,0 +1,72 @@
+/*adjusting spacing by using margin*/
+.new-patient-container {
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+/*changing font to cursive and adding a text decoration*/
+.main-heading {
+	font-family: cursive;
+	text-decoration: underline;
+}
+
+/*adjusting spacing by using margin adn removing the border*/
+/*changing font to cursive and background color*/
+.create-button {
+	font-family: cursive;
+	border: none;
+	background-color: rgba(128, 128, 128, 0.7);
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+/*settign the hover action to change background color annd adding a border style*/
+.create-button:hover {
+	background-color: gray;
+	border-style: groove;
+}
+
+/*changing background color*/
+.date {
+	background-color: rgba(0, 128, 0, 0.23);
+}
+
+/*changing background color*/
+.time {
+	background-color: rgba(255, 255, 0, 0.312);
+}
+
+/*changing background color*/
+.new-patientName {
+	background-color: rgba(137, 43, 226, 0.292);
+}
+
+/*changing background color*/
+.patient-surname {
+	background-color: rgba(240, 255, 255, 0.401);
+}
+
+/*changing background color*/
+.purpose {
+	background-color: rgba(0, 0, 255, 0.31);
+}
+
+/*changing background color*/
+.phone-number {
+	background-color: rgba(255, 192, 203, 0.348);
+}
+
+/*changing background color*/
+.medical-aid {
+	background-color: rgba(127, 255, 212, 0.351);
+}
+
+/*changing background color*/
+.smoker {
+	background-color: rgba(245, 190, 106, 0.264);
+}
+
+/*changing background color*/
+.type {
+	background-color: rgba(255, 0, 0, 0.307);
+}

@@ -1,0 +1,79 @@
+/* changing the font and adding a text decoration*/
+/* adding spacing by using margin*/
+.new-admin-heading {
+	font-family: cursive;
+	text-decoration: underline;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+/*changing the font to monospace ad adding spacing by using margin*/
+.label1,
+.label2 {
+	margin-right: 10px;
+	font-family: monospace;
+}
+
+/*changing background color if the user hovers over the inputs*/
+.input1:hover,
+.input2:hover {
+	background-color: rgba(128, 128, 128, 0.497);
+}
+
+/*adding spacing by using margin and rounding the buttons corners by using border radius*/
+/* changing the background color*/
+.new-admin-button {
+	border-radius: 5px;
+	margin-right: -220px;
+	margin-bottom: 40px;
+	background-color: rgba(128, 128, 128, 0.603);
+}
+
+/* when hovering over the button the background color will change*/
+.new-admin-button:hover {
+	background-color: gray;
+}
+
+/*when the button is active the background color will change*/
+.new-admin-button:active {
+	background-color: rgba(76, 213, 215, 0.434);
+}
+
+/*when the inputs is active the background color will change*/
+.input1:active,
+.input2:active {
+	background-color: rgba(128, 128, 128, 0.274);
+}
+
+/*changing the font style to italic*/
+.link-to-dashboard {
+	font-style: italic;
+}
+
+/*changing the color when hovering over thee text*/
+.link-to-dashboard:hover {
+	color: rgba(131, 245, 173, 0.511);
+}
+
+/*when the text is actively being clicked on the color will change*/
+.link-to-dashboard:active {
+	color: rgba(131, 245, 173, 0.703);
+}
+
+/*adding spacing by using margin and adjusting the width*/
+/*changing the background image*/
+.main-container-admin-create {
+	margin-top: 30px;
+	width: 725px;
+	margin-left: 400px;
+	background-image: url("https://c4.wallpaperflare.com/wallpaper/847/928/836/nature-sea-sunset-rock-wallpaper-preview.jpg");
+}
+
+/*adjusting the width of the container and adding spacing by using margin*/
+/*changing background color*/
+.new-admin-container {
+	width: 500px;
+	background-color: rgba(128, 128, 128, 0.663);
+	margin-left: 140px;
+	margin-bottom: 20px;
+}

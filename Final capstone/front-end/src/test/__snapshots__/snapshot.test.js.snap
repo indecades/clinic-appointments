@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot of App.js 1`] = `
+<div
+  className="App"
+>
+  <div
+    data-testid="homepageTest"
+  >
+     
+    <a
+      href="/appointments"
+      onClick={[Function]}
+    >
+       
+      <button
+        className="view-appointment"
+      >
+        View appointments
+      </button>
+       
+    </a>
+    <a
+      href="/admin-login"
+      onClick={[Function]}
+    >
+       
+      <button
+        className="admin-button"
+      >
+        I am an admin
+      </button>
+       
+    </a>
+  </div>
+</div>
+`;
